@@ -1,0 +1,18 @@
+//JAVA SHOUTDOWN CODE*/
+import java.io.IOException;
+
+import java.lang.Runtime;
+public class ShutdownPC {
+    public static void main(String[] args) {
+    try{
+        //SHUTDOWNPC 
+        Runtime.getRuntime().exec("shutdown /s /t 1");
+
+    }catch(IOException e){
+        e.printStackTrace();
+    }
+    
+    }
+    
+}
+ 
